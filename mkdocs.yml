@@ -1,1 +1,5 @@
-site_name: My Docs
+site_name: User guide title
+site_url: https:/abbiesmii.github.io/site
+theme:
+  name: material
+  
