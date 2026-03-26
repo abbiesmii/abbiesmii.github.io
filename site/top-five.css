@@ -27,7 +27,7 @@ header {
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 800;
   color: rgb(251, 82, 113);
 }
@@ -50,7 +50,7 @@ a {
 }
 
 footer {
-  font-size: 12px;
+  font-size: 16px;
   color: rgba(255, 106, 0, 0.6);
   padding-bottom: 20px;
 }
