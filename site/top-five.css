@@ -38,6 +38,7 @@ main {
 h1 {
   font-family: "Comic Sans MS", Georgia, serif;
   color: rgb(226, 98, 6);
+   font-size: 24px;
 }
 
 li {
@@ -58,6 +59,9 @@ footer {
 @media screen and (min-width: 576px) {
   body {
     width: 556px;
+  }
+  h1 {
+    font-size: 32px;
   }
 }
 
