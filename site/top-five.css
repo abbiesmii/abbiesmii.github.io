@@ -60,3 +60,15 @@ footer {
     width: 556px;
   }
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 748px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    width: 972px;
+  }
+}
