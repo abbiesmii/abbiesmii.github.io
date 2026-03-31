@@ -27,7 +27,7 @@ header {
 }
 
 .logo {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 800;
   color: rgb(251, 82, 113);
 }
@@ -65,7 +65,7 @@ footer {
   }
   .logo {
     font-size: 24px;
-    color: aliceblue
+    color: rgb(38, 122, 197)
   }
 }
 
