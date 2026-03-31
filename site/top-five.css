@@ -54,3 +54,9 @@ footer {
   color: rgba(255, 106, 0, 0.6);
   padding-bottom: 20px;
 }
+
+@media screen and (min-width: 576px) {
+  body {
+    width: 556px;
+  }
+}
