@@ -1,85 +1,114 @@
 <!doctype html>
-<html lang="en" class="h-100 w-100"> 
+<html lang="en" class="h-100 w-100">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">  
-</head> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="Writing-samples.css">
+</head>
+
 <body class="h-100 w-100 d-flex flex-column">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark pe-5" aria-label="navbar">
-    <div class="container"> <a class="navbar-brand" href="#">Abigail Smith's Portfolio</a> <button class="navbar-toggler" type="button"
-        data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar"
-        aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <nav class="navbar navbar-expand-lg navbar-info bg-info pe-5" aria-label="navbar">
+    <div class="container"> <a class="navbar-brand" href="#">
+        <i class="bi bi-vector-pen"></i> Abigail Smith's Portfolio</a> <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false"
+        aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Home</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
           <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
-           <li class="nav-item"> <a class="nav-link" href="copyediting.html">Editing</a> </li>
-            <li class="nav-item"> <a class="nav-link" href="Writing-samples.html">Writing Samples</a> </li>
+          <li class="nav-item"> <a class="nav-link active" aria-current="page"href="Writing-samples.html">Writing Samples</a> </li>
         </ul>
-        <form role="search"> <input class="form-control" type="search" placeholder="Search" aria-label="Search"> </form>
       </div>
     </div>
   </nav>
   <main class="container flex-grow-1 pt-5">
     <div class="pb-4">
-      <center><h1>Writing Samples</h1></center>
-      <center><p>Here are a few of my favorite pieces I've written for Her Campus:</p></center>
+      <center>
+        <h1>Writing Samples</h1>
+      </center>
+      <center>
+        <p>Here are a few of my favorite pieces I've written for Her Campus:</p>
+      </center>
     </div>
-    
-    <div class="card text-center">
-  <div class="card-header">
-    Featured
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Finding My People in College</h5>
-    <p class="card-text">“Everybody wants a village, but nobody wants to be a villager" and how showing up more for others impacted my friendships and built up my community on campus.</p>
-    <a href="https://www.hercampus.com/school/virginia-tech/finding-my-people-in-college/" class="btn btn-primary">Read More</a>
-  </div>
-  <div class="card-footer text-body-secondary">
-    3 months ago
-  </div>
-</div><div class="card text-center">
-  <div class="card-header">
-    Featured
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Swimsuit Shopping as a Midsize Girl</h5>
-    <p class="card-text">Exploring the challenges and triumphs of finding the perfect swimsuit as a midsize woman.</p>
-    <a href="https://www.hercampus.com/school/virginia-tech/swimsuit-shopping-as-a-midsize-girl/" class="btn btn-primary">Read More</a>
-  </div>
-  <div class="card-footer text-body-secondary">
-    1 month ago
-  </div>
-  </div><div class="card text-center">
-  <div class="card-header">
-    Featured
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Yes, I'm a Writer. No, AI isn't replacing me.</h5>
-    <p class="card-text">Writers don’t need to be worried about AI. The real issue is how many people already think we’re replaceable.</p>
-    <a href="https://www.hercampus.com/school/virginia-tech/yes-im-a-writer-no-ai-isnt-replacing-me/" class="btn btn-primary">Read More</a>
-  </div>
-  <div class="card-footer text-body-secondary">
-    1 week ago
-  </div>
-   <h2>View more of my writing samples on <a href="https://www.hercampus.com/school/virginia-tech/author/abigail-smith/">Her Campus</a>!</h2>
-</div>
+    <div class="card-group">
+      <div class="card me-3">
+        <img class="card-img-top" src="images/Introverted_Friendship_Hero.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Yes, I'm a Writer. No, AI Isn't Replacing Me.</h5>
+          <p class="card-text">For a long time, I felt embarrassed telling people I wanted to be a writer. This piece
+            reflects on why creative work still matters and why writers deserve to value their voices, even in the age
+            of AI.</p>
+        </div>
+        <div class="button-group d-flex justify-content-center">
+          <a href="https://www.hercampus.com/school/virginia-tech/yes-im-a-writer-no-ai-isnt-replacing-me/"
+            class="btn btn-primary" target="_blank">
+            Read More Here!
+          </a>
+        </div>
+        <div class="card-group mb-3"></div>
+        <div class="card-footer">
+          <small class="text-muted">April 19, 2026</small>
+        </div>
+      </div>
+      <div class="card me-3">
+        <img class="card-img-top" src="images/reading-in-bathtub_by_Taryn_Elliot.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">5 Easy Ways I Reset My Week As A College Student.</h5>
+          <p class="card-text">Simple habits and routines that help me stay balanced, productive, and mentally refreshed
+            during busy weeks.</p>
+        </div>
+        <div class="button-group d-flex justify-content-center">
+          <a href="https://www.hercampus.com/school/virginia-tech/5-easy-ways-i-reset-my-week-as-a-college-student/"
+            class="btn btn-primary" target="_blank">
+            Read More Here!
+          </a>
+        </div>
+        <div class="card-group mb-3"></div>
+        <div class="card-footer">
+          <small class="text-muted">April 7, 2026</small>
+        </div>
+      </div>
+      <div class="card me-3">
+        <img class="card-img-top" src="images/screenshot_20260407_at_25839pmpng_by_Beyzaa_Yurtkuran.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Friendship Breakups: Let's Talk About Them</h5>
+          <p class="card-text">People don’t often talk about the pain that comes with friendship breakups, but through
+            that pain can come growth, self-discovery, and new opportunities for healthier connections.</p>
+        </div>
+        <div class="button-group d-flex justify-content-center">
+          <a href="https://www.hercampus.com/school/virginia-tech/friendship-breakups-lets-talk-about-them/"
+            class="btn btn-primary" target="_blank">
+            Read More Here!
+          </a>
+        </div>
+        <div class="card-group mb-3"></div>
+        <div class="card-footer">
+          <small class="text-muted">March 23, 2026</small>
+        </div>
+      </div>
+      <div class="card-group mb-5"></div>
+    </div>
   </main>
-  <footer class="mt-auto border-top">
+  <footer class="mt-5 border-top">
     <div class="container d-flex flex-wrap justify-content-between align-items-center py-3">
-      <div class="col-md-4 d-flex align-items-center"><span class="mb-3 mb-md-0 ps-1 text-body-secondary">© Abigail Smith 2026, All Rights Reserved.</span></div>
+      <div class="col-md-4 d-flex align-items-center"><span class="mb-3 mb-md-0 ps-1 text-body-secondary">© Abigail
+          Smith 2026, All Rights Reserved.</span></div>
       <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-body-secondary" href="https://instagram.com/abbiesmii" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/abigail-smith-vt" aria-label="linkedin"><i class="bi bi-linkedin"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://instagram.com/abbiesmii" aria-label="Instagram"><i
+              class="bi bi-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/abigail-smith-vt"
+            aria-label="linkedin"><i class="bi bi-linkedin"></i></a></li>
       </ul>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
-</body> 
+</body>
+
 </html>
